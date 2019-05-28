@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/book.h
+vector
+-
+iostream
+-
+memory
+-
+algorithm
+-
+
+../include/marketmgr.h
+cstddef
+-
+vector
+-
+unordered_map
+-
+iostream
+-
+string
+-
+memory
+-
+algorithm
+-
+
+../include/order.h
+
+/home/fewang/codes/KGTrading/test/test.cpp
+boost/test/included/unit_test.hpp
+-
+order.h
+/home/fewang/codes/KGTrading/test/order.h
+book.h
+/home/fewang/codes/KGTrading/test/book.h
+marketmgr.h
+/home/fewang/codes/KGTrading/test/marketmgr.h
+

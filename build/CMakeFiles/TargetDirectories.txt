@@ -1,0 +1,3 @@
+/home/fewang/codes/KGTrading/build/CMakeFiles/edit_cache.dir
+/home/fewang/codes/KGTrading/build/CMakeFiles/rebuild_cache.dir
+/home/fewang/codes/KGTrading/build/CMakeFiles/utest.dir

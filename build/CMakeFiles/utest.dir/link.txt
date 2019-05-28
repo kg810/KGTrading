@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -Wno-unknown-pragmas -Wno-sign-compare -Woverloaded-virtual -Wwrite-strings -Wno-unused --std=c++14   CMakeFiles/utest.dir/test/test.cpp.o  -o utest 
