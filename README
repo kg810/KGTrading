@@ -1,3 +1,8 @@
+## KGTrading
+
+KGTrading targets to build a low-latency trading platform, including market manager, match engine, 
+
+
 Implement three classes in orderbook.h:
 class Order - define order structure. Although problem only requires single symbol, the solution supports mutiple symbols.
 class Book - define book sturcture, includes Level sturcture, and several operations.
