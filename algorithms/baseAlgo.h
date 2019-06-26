@@ -21,15 +21,15 @@ public:
     /*
      * init baseAlgo
      */
-    virtual init() = 0;
+    virtual void init() = 0;
 
-    virtual run() = 0;
+    virtual void run() = 0;
 
 private:
 
-    virtual newOrder() = 0;
+    virtual ssize_t newOrder() = 0;
 
-    virtual cancelOrder() = 0;
+    virtual ssize_t cancelOrder() = 0;
 
     std::vector<std::string> symbols;
     std::vector<uint16_t> kgIds;
